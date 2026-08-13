@@ -1,0 +1,15 @@
+{
+  "name": "y-webrtc-signaling",
+  "version": "1.0.0",
+  "description": "Signaling server for y-webrtc deployed on Render",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/y-webrtc/bin/server.js"
+  },
+  "dependencies": {
+    "y-webrtc": "^10.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
