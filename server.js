@@ -19,7 +19,7 @@ const server = http.createServer((request, response) => {
     console.log(`[${timestamp}] Health check ping received from ${request.headers['user-agent'] || 'unknown'}`)
     
     response.writeHead(200, { 'Content-Type': 'text/plain' })
-    response.end('This is a P2P Signalling server used for my other project https://interv-you.vercel.app/ \n  Thank You for stoppping by, Theere is nothing to see here!')
+    response.end('VERSION-291F37C-NEW')
     return
   }
 
